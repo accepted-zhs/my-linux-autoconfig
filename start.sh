@@ -74,10 +74,16 @@ install_fonts(){
     fc-cache -f -v
 }
 
+do_other_things(){
+    echo "set max-value-size unlimited" >> ~/.gdbinit
+}
+
 echo BEGIN...
 install_basic_env
 install_vimplus
 install_common_software
 install_deepin_wine
 install_zsh
+install_fonts
+do_other_things
 echo DONE!

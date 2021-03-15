@@ -1,3 +1,7 @@
+//C++ Template.
+//By Catalyst_ri2h.
+//See also:https://github.com/accepted-zhs/my-linux-autoconfig.
+
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
